@@ -1100,53 +1100,62 @@ GLM102056+2534 - try a combine all, might need a RV
 GLM102056-1658 - get extra sources from below
 GLM102058-3457 - PUMA combine looks good
 GLM102112+1837 - combine all
-GLM102125-3112
-GLM102127+0524
-GLM102201-2101
-GLM102243-0442
-GLM102425-3353
-GLM102432-3750
-GLM102520-1812
-GLM102529-0217
-GLM102607-1635
-GLM102632-3956
-GLM102823+2504
-GLM102856+0307
-GLM102928+1854
-GLM103003+2846
-GLM103011-0314
-GLM103135-2339
-GLM103234+0459
-GLM103350-0901
-GLM103424-3539
-GLM103653-3743
-GLM103726-1907
-GLM103839-3941
-GLM103847-3428
-GLM103909+0441
-GLM103917-1024
-GLM103928+0536
-GLM104411-7730
-GLM104424-2335
-GLM104513-0714
-GLM104519+0102
-GLM104553-3220
-GLM104615-2234
-GLM104626-2824
-GLM104635+0817
-GLM104645-3601
-GLM104713-0028
-GLM104721-0105
-GLM104750+1954
-GLM104838-1621
-GLM104844+1108
-GLM104942-1310
-GLM105017-0620
-GLM105035-2405
-GLM105037-0047
-GLM105116+0158
-GLM105144-4101
-GLM105249-1532
+GLM102125-3112 - PUMA combine looks good
+GLM102127+0524 - RT, missing components HUIB, might need extra NVSS from above
+GLM102201-2101 - PUMA combine looks good
+GLM102243-0442 - PUMA combine looks good, ATG20 only associated with lower NVSS
+GLM102425-3353 - combine all
+GLM102432-3750 - PUMA combine looks good, looks like righthand component isn't
+                 integrated in GLEAM source
+GLM102520-1812 - PUMA combine looks good
+GLM102529-0217 - PUMA combine looks good
+GLM102607-1635 - PUMA combine looks good
+GLM102632-3956 - need to get one extra NVSS - I think this could be better in 
+                 GLEAM - NATASHA
+GLM102823+2504 - try a combine all - might need to RT because missing the lefthand
+                 component
+GLM102856+0307 - TGSS is super low but PUMA combine looks good
+GLM102928+1854 - hmmm by GLEAM shape should probably be a combine all
+GLM103003+2846 - PUMA combine looks good
+GLM103011-0314 - I think TGSS is missing flux from GLEAM image, but looks too
+                 diffuse to source find on, so go with PUMA combine
+GLM103135-2339 - RN, missing left hand component for some reason, combine all else
+GLM103234+0459 - PUMA combine looks good, TGSS flux is low
+GLM103350-0901 - PUMA combine looks good
+GLM103424-3539 - RT, missing a component, combine both NVSS
+GLM103653-3743 - PUMA combine looks good, ATG20 only associated with lower NVSS
+GLM103726-1907 - try combine all
+GLM103839-3941 - PUMA combine looks good, TGSS flux is low
+GLM103847-3428 - combine all
+GLM103909+0441 - PUMA combine looks good
+GLM103917-1024 - combine all
+GLM103928+0536 - PUMA combine looks good
+GLM104411-7730 - hrmmm GLEAM image looks a bit messed up NATASHA, but from
+                 spectra I think PUMA combine kinda makes sense. ATG20 only
+                 matches the bottom SUMSS
+GLM104424-2335 - RP, but seems reasonable
+GLM104513-0714 - PUMA combine looks good
+GLM104519+0102 - PUMA combine looks good
+GLM104553-3220 - PUMA combine looks good
+GLM104615-2234 - PUMA combine looks good
+GLM104626-2824 - PUMA combine looks good
+GLM104635+0817 - PUMA combine looks good
+GLM104645-3601 - PUMA combine looks good, I think source is extended enough for
+                 this not to be SUMSS sidelobe
+GLM104713-0028 - PUMA combine looks good; ATG20 associated with NVSS and central
+                 TGSS source
+GLM104721-0105 - combine all
+GLM104750+1954 - RT, diffuse stuff isn't being picked up. Try a combine all NVSS
+GLM104838-1621 - try a combine all
+GLM104844+1108 - try a combine all
+GLM104942-1310 - RP, but going to RT because large amounts of diffuse missed
+                 Probably need to combine both NVSS. COOLSOURCE
+GLM105017-0620 - PUMA combine looks good
+GLM105035-2405 - PUMA combine looks good
+GLM105037-0047 - PUMA combine looks good
+GLM105116+0158 - combination 5 looks good, would pass dominance test if P_3 != 0.98
+GLM105144-4101 - PUMA combine looks good
+GLM105249-1532 - PUMA combine looks good
 GLM105307+2601
 GLM105355-1419
 GLM105514-3418
